@@ -1,0 +1,36 @@
+#number_container{
+    width: 80%;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 3px 3px 3px gray;
+    margin: auto;
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#item_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 20px;
+    border: 2px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#item_created{
+    font-size: smaller;
+    margin-top: 3px;
+}
+#items_desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+ 
+}

@@ -1,0 +1,76 @@
+#get_pass_sec input{
+    height: 30px;
+    width: 20px;
+    margin: 5px;
+    text-align: center;
+    appearance:textfield;
+    -moz-appearance: textfield;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgb(172, 172, 172);
+    }
+#get_pass_sec input:focus{
+    border: 2px solid rgb(33, 148, 220);
+
+}
+    #get_pass_sec input::-webkit-outer-spin-button,
+    #get_pass_sec input::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
+    #head_sec_pass img{
+        width: 130px;
+        height: 130px;
+        margin: auto;
+        display: block;
+    }
+    #head_sec_pass h3,p{
+        text-align: center;
+    }
+    #form_sec{
+        width: fit-content;
+        height: fit-content;
+        display: block;
+        margin: auto;
+    }
+    #head_sec_pass p{
+        color: rgb(110, 110, 110);
+    }
+
+    #loading{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        z-index: 200;
+
+
+    }
+    #animated_loading{
+        position: absolute;
+        top: 45%;
+        right: 36%;
+        height: fit-content;
+        width: fit-content;
+    }
+    #animated_loading img{
+        width: 90px;
+        height: 90px;
+    }
+    #resend_code{
+        margin-top: 250px;
+        color: blue;
+        
+    }
+    #didnt_get{
+        cursor: pointer;
+    }
+    #errMsg{
+        text-align: center;
+        color:red
+    }
+
+
+
+
